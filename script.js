@@ -19,9 +19,12 @@ function processaTexto (texto) {
             }
         }
     }
-    
-    
+     
     console.log(frequencias)
     
     return plalavras;
+}
+
+function contaFrequencias(palavras){
+    
 }
