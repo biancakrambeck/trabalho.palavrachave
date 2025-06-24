@@ -2,7 +2,7 @@
 
 :root {
     --cor-destaque: #1422ed;
-    --cor-gradiente-preto: linear-gradient(113deg, #000 0%, #1E2021 44.96%, #1E2022 100%);
+    --cor-gradiente-preto: linear-gradient(113deg, #000 0%, #345464 44.96%, hsl(209, 27%, 35%) 100%);
 }
 
 * {
@@ -52,7 +52,7 @@ h1 {
 }
 
 #entrada-de-texto::placeholder {
-    color: #828282;
+    color: #1a1229;
     font-size: 2rem;
     font-weight: 400;
     line-height: normal;
