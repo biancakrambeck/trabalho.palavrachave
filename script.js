@@ -44,6 +44,7 @@ function tiraPalavrasRuins(palavras){
     for (let palavra of palavras) {
         if (palavra.length > 2) {
         palavrasBoas.push(palavra);
+        }
     }
-}
+    return palavrasBoas;
 }
