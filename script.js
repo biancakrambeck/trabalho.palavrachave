@@ -10,7 +10,7 @@ function mostraPalavrasChave() {
     campoResultado.textContent = PalavrasChave.join(", ");
 }
 function processaTexto (texto) {
-   let frequencias = [];
+   let frequencias =  {};
     for(let i in palavras) {
         frequencias [i] = 0;
         for (let j in palavras) {
