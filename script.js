@@ -10,7 +10,12 @@ function mostraPalavrasChave() {
     campoResultado.textContent = PalavrasChave.join(", ");
 }
 
-function processaTexto(texto){
+//Código omitido
+
+function processaTexto (texto) {
     let palavras = texto.split(/\P{L}+/u);
-    return palavras;
+    
+    let frequencias = [];
+    
+    return plalavras;
 }
