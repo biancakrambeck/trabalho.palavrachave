@@ -24,7 +24,7 @@ function contaFrequencias(palavras){
          }
      }
       
-    return frequencias
+    return frequencias;
      
     
 }
