@@ -14,17 +14,18 @@ function processaTexto (texto) {
 }
 
 function contaFrequencias(palavras){
-    let frequencias =  {};
-     for(let i in palavras) {
-         frequencias [i] = 0;
-         for (let j in palavras) {
-             if ( i == j ){
-               frequencias[i]++;  
-             }
-         }
-     }
-      
+    let palavras = texto.split(/\P{L}+/u);
+    contaFrequencias(palavras);
+    let frequencias = {};
+    for(let i in palavras) {
+        frequencias [i] = 0;
+        for (let j in palavras) {
+            if ( i == j ){
+              frequencias[i]++;  
+            }
+        }
+    }
+    
     return frequencias;
-     
     
 }
