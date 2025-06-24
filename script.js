@@ -24,7 +24,7 @@ function contaFrequencias(palavras){
          }
      }
       
-     console.log(frequencias)
+    return frequencias
      
     
 }
