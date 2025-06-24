@@ -9,16 +9,17 @@ function mostraPalavrasChave() {
     
     campoResultado.textContent = PalavrasChave.join(", ");
 }
-
 function processaTexto (texto) {
-    let palavras = texto.split(/\P{L}+/u);
-    
-    let frequencias = [];
+   let frequencias = [];
     for(let i in palavras) {
         frequencias [i] = 0;
-         for (let j in palavras) {
+        for (let j in palavras) {
             if (palavras [i]==palavras[j]){
+              frequencias[i]++;  
+            }
+        }
     }
+    
     
     console.log(frequencias)
     
