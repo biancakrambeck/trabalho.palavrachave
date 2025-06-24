@@ -10,21 +10,21 @@ function mostraPalavrasChave() {
     campoResultado.textContent = PalavrasChave.join(", ");
 }
 function processaTexto (texto) {
-   let frequencias =  {};
-    for(let i in palavras) {
-        frequencias [i] = 0;
-        for (let j in palavras) {
-            if ( i == j ){
-              frequencias[i]++;  
-            }
-        }
-    }
-     
-    console.log(frequencias)
-    
     return plalavras;
 }
 
 function contaFrequencias(palavras){
+    let frequencias =  {};
+     for(let i in palavras) {
+         frequencias [i] = 0;
+         for (let j in palavras) {
+             if ( i == j ){
+               frequencias[i]++;  
+             }
+         }
+     }
+      
+     console.log(frequencias)
+     
     
 }
