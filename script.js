@@ -1,1 +1,2 @@
-const botaoMostraPalavras = document.querySelector()
+const botaoMostraPalavras = document.querySelector("#botao-palavrachave");
+
